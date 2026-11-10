@@ -148,15 +148,5 @@ acessível.
 
 **Ferramenta utilizada:** assistente de IA integrado ao VS Code.
 
-**Como a ferramenta foi utilizada:** apoio para organizar os arquivos,
-implementar as duas regras, escrever testes unitários e funcionais com
-Playwright e documentar a execução.
-
-**Uma sugestão que precisou ser alterada ou rejeitada:** em vez de testar uma
-tentativa de login com credenciais inventadas — que poderia depender de estado
-ou conta existente — foi escolhido verificar a validação do formulário vazio,
-observada na interface e sem criar ou alterar uma conta.
-
-**Como o código sugerido foi verificado:** os locators e os estados do
-formulário foram conferidos na interface publicada; em seguida, os testes
-foram executados com `pytest`. A execução registrada aprovou os nove testes.
+**Como a ferramenta foi utilizada:** apoio para organizar os arquivos e validar os testes unitários e funcionais com
+Playwright.
