@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.0, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Administrator\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Administrator\Documents\Trabalho\atividades\atividade-04
+collecting ... collected 9 items
+
+tests/test_localeats.py::test_aba_criar_conta_apresenta_campos_de_cadastro PASSED [ 11%]
+tests/test_localeats.py::test_login_vazio_bloqueia_envio_por_campo_obrigatorio PASSED [ 22%]
+tests/test_regras_localeats.py::test_pedido_exatamente_no_valor_minimo_e_aprovado PASSED [ 33%]
+tests/test_regras_localeats.py::test_pedido_abaixo_do_valor_minimo_nao_e_aprovado PASSED [ 44%]
+tests/test_regras_localeats.py::test_pedido_com_valor_negativo_gera_value_error PASSED [ 55%]
+tests/test_regras_localeats.py::test_quantidade_maxima_de_itens_e_valida PASSED [ 66%]
+tests/test_regras_localeats.py::test_quantidade_acima_do_limite_nao_e_valida PASSED [ 77%]
+tests/test_regras_localeats.py::test_quantidade_zero_nao_e_valida PASSED [ 88%]
+tests/test_regras_localeats.py::test_quantidade_negativa_gera_value_error PASSED [100%]
+
+============================== 9 passed in 2.41s ==============================
