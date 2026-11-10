@@ -2,7 +2,7 @@
 
 **Unidade Curricular:** Qualidade de Software  
 **Projeto:** LocalEats  
-**Modalidade:** Dupla  
+**Integrantes:** Joao Robe e Octavio Hellwig  
 
 ## Objetivo e escopo
 
